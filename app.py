@@ -34,7 +34,7 @@ def send_mail():
     # sendTo = sib_api_v3_sdk.SendSmtpEmailTo(email='anjo_li35@hotmail.com', name='Projeto integrador - ')
     
     # Quem recebe
-    sendTo = sib_api_v3_sdk.SendSmtpEmailTo(email="anjo_li35@hotmail.com", name=f'Contato - {user_nome} - {user_phone}')
+    sendTo = sib_api_v3_sdk.SendSmtpEmailTo(email="alvarogp2010@gmail.com", name=f'Contato - {user_nome} - {user_phone}')
     arrTo = [sendTo] #Adding `to` in a list
     send_smtp_email = sib_api_v3_sdk.SendSmtpEmail(sender=senderSmtp, to=arrTo, html_content=user_message,subject=f'Contato - {user_nome} - {user_phone}') # SendSmtpEmail | Values to send a transactional email
     try:
