@@ -23,7 +23,7 @@ def send_mail():
     from sib_api_v3_sdk.rest import ApiException
     
     configuration = sib_api_v3_sdk.Configuration()
-    configuration.api_key['api-key'] = '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'
+    configuration.api_key['api-key'] = 'xsmtpsib-7c0390d2b86d88aebfc75d1d2bd82f10c77b3bce9e2dce60b87c3913f12737fa-bLqWR9nMjIwEZrDp'
     
     api_instance = sib_api_v3_sdk.TransactionalEmailsApi(sib_api_v3_sdk.ApiClient(configuration))
     
